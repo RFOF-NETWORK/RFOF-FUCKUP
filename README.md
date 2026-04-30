@@ -287,9 +287,45 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
 
 ## 🟧 /backend/smart-contract
 ```
-/backend/smart-contract
-    /FUCKUPCONTRACTKALKÜL
-        (Platzhalter für Implementierung)
+/smart-contract-complete
+    /FUCKUPcontractKALKÜL
+    /blockchain
+    /coin
+    /token
+    /asset
+    /fee
+    /governance
+    /identity
+    /bridge
+    /dex
+
+    /nft
+    /domain
+    /tel
+    /fax
+    /email
+    /gmail
+
+    /wallet
+    /registry
+    /oracle
+    /escrow
+    /auction
+    /lottery
+    /subscription
+    /storage
+    /schedule
+    /access
+    /license
+    /certificate
+    /profile
+    /message
+    /contract
+    /pair
+    /vault
+    /staking
+    /reward
+    /penalty
 ```
 
 ---
@@ -480,7 +516,8 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
             structure.txt
             semantics.txt
             grammar.txt
-
+```
+```
     /coin
         coin_core.bas
         coin_balance.bas
