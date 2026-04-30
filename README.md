@@ -369,6 +369,92 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
     /staking
     /reward
     /penalty
+     /access
+    /airdrop
+    /alias
+    /analytics
+    /archive
+    /asset
+    /attestation
+    /auction
+
+    /backup
+    /billing
+    /bridge
+    /burner
+
+    /certificate
+    /cleanup
+    /coin
+    /compliance
+    /contract
+    /dex
+    /domain
+
+    /email
+    /epoch
+    /escrow
+
+    /fax
+    /factory2
+    /fee
+
+    /gmail
+    /governance
+    /governor
+
+    /halving
+    /hook
+
+    /identity
+    /indexer
+    /inflation
+
+    /license
+    /lottery
+
+    /message
+    /migration
+    /mining
+    /monitor
+    /multisig
+
+    /nft
+
+    /oracle
+
+    /pair
+    /penalty
+    /profile
+
+    /quota
+
+    /registry
+    /report
+    /restore
+    /reward
+    /rewardpool
+    /router
+
+    /sandbox
+    /schedule
+    /session
+    /staking
+    /storage
+    /subscription
+    /sync
+
+    /tel
+    /template
+    /timelock
+    /token
+    /trigger
+    /treasury
+
+    /vault
+
+    /wallet
+
 ```
 
 ---
