@@ -325,6 +325,12 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
     temp.seq
     readme.txt
     notes.txt
+    smart-contract/
+    ZUSE/
+    HAGBARD/
+    TRON/
+    SATOSHINAKAMOTO/
+    SATORAMY/
 ```
 ---
 
