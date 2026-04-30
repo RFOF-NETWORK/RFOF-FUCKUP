@@ -220,6 +220,49 @@ Rolle:
 #### Dies ist die statische Wissensbasis.
 
 ---
+---
+
+## 🟧 /backend/smart-contract/smart-contract-complete
+Die vollständige Geschäftslogik und Dienstleistungsebene des RFOF-Systems, implementiert in modularem BASIC.
+
+### 📄 Finanz- & Asset-Module
+*   **/coin**: Währungskern (Minting, Burning, Transfer & Balances).
+*   **/token**: Token-Registrierung und standardisierter Transfer.
+*   **/asset**: Mapping und Verwaltung digitaler Vermögenswerte.
+*   **/staking**: Sperrmechanismen für Anteile und Belohnungslogik.
+*   **/reward / /penalty**: Kalkulation von Anreizen und Strafzahlungen.
+*   **/vault**: Gesicherte Tresor-Logik für zeitgesteuerte Sperren.
+*   **/pair**: Paarbildung für Handelswerte (z.B. für Liquidität).
+
+### 📄 Handels- & Markt-Mechanismen
+*   **/dex**: Dezentrale Handelsbörse (Swap, Orderbuch, Liquidität).
+*   **/auction**: Gebotslogik und Auktionsabschluss.
+*   **/lottery**: Pool-Verwaltung und deterministische Ziehungen.
+*   **/escrow**: Treuhand-Funktionen (Sperren und Freigeben von Werten).
+*   **/oracle**: Schnittstelle für externe Datenfeeds in die Chain.
+*   **/fee**: Regelwerke für Gebührenkalkulation und -verteilung.
+
+### 📄 Identität & Kommunikation
+*   **/identity**: Rollenverteilung und Mapping digitaler Identitäten.
+*   **/profile**: Metadaten-Verwaltung für Nutzerprofile.
+*   **/domain**: Registrierung und Auflösung von Namensdiensten.
+*   **/tel / /fax**: Spezifische Register für Telefon- und Fax-Kennungen.
+*   **/email / /gmail**: Dezentrale Verwaltung von E-Mail-Identitäten.
+*   **/message**: Protokoll für das Senden und Empfangen interner Nachrichten.
+*   **/certificate / /license**: Ausstellung, Verifizierung und Widerruf von Zertifikaten.
+
+### 📄 Infrastruktur & Governance
+*   **/governance**: Vorschlagswesen (Proposals) und Stimmabgabe (Voting).
+*   **/bridge**: Handshake-Protokolle zur Verbindung mit anderen Systemen.
+*   **/wallet**: Schlüsselverwaltung und Signatur-Logik im Backend.
+*   **/registry**: Zentrales Mapping-Register für System-Ressourcen.
+*   **/contract**: Factory-Logik zur automatisierten Vertragserstellung.
+*   **/access**: Rollenbasierte Zugriffskontrolle (Access Control Lists).
+*   **/storage**: Low-Level Schreib- und Leselogik für persistenten Speicher.
+*   **/subscription**: Verwaltung von Abonnements und Zahlungszyklen.
+*   **/schedule**: Timer-Dienste und zeitbasierte Ausführung von Aufgaben.
+*   **/nft**: Registrierung und Metadaten-Handling für Unikate.
+---
 
 # 🟩 FUSIONALE GESAMTBEDUTUNG
 
