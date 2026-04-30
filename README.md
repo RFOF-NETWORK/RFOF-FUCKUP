@@ -828,3 +828,238 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
         penalty_apply.bas
         penalty_state.dat
 ```
+# 🟥 /backend/smart-contract/mining
+```
+/mining
+    mining_core.bas
+    mining_reward.bas
+    mining_difficulty.bas
+    mining_state.dat
+```
+# 🟥 /backend/smart-contract/halving
+```
+/halving
+    halving_core.bas
+    halving_schedule.bas
+    halving_state.dat
+```
+# 🟥 /backend/smart-contract/inflation
+```
+/inflation
+    inflation_core.bas
+    inflation_calc.bas
+    inflation_state.dat
+```
+# 🟥 /backend/smart-contract/treasury
+```
+/treasury
+    treasury_core.bas
+    treasury_fund.bas
+    treasury_spend.bas
+    treasury_state.dat
+```
+# 🟥 /backend/smart-contract/governor
+```
+/governor
+    governor_core.bas
+    governor_rules.bas
+    governor_state.dat
+```
+# 🟥 /backend/smart-contract/router
+```
+/router
+    router_core.bas
+    router_map.bas
+    router_state.dat
+```
+# 🟥 /backend/smart-contract/sync
+```
+/sync
+    sync_core.bas
+    sync_status.bas
+    sync_state.dat
+```
+# 🟥 /backend/smart-contract/epoch
+```
+/epoch
+    epoch_core.bas
+    epoch_calc.bas
+    epoch_state.dat
+```
+# 🟥 /backend/smart-contract/rewardpool
+```
+/rewardpool
+    rewardpool_core.bas
+    rewardpool_fill.bas
+    rewardpool_drain.bas
+    rewardpool_state.dat
+```
+# 🟥 /backend/smart-contract/burner
+```
+/burner
+    burner_core.bas
+    burner_execute.bas
+    burner_state.dat
+```
+# 🟥 /backend/smart-contract/airdrop
+```
+/airdrop
+    airdrop_core.bas
+    airdrop_distribute.bas
+    airdrop_state.dat
+```
+# 🟥 /backend/smart-contract/migration
+```
+/migration
+    migration_core.bas
+    migration_step.bas
+    migration_state.dat
+```
+# 🟥 /backend/smart-contract/alias
+```
+/alias
+    alias_core.bas
+    alias_map.bas
+    alias_state.dat
+```
+# 🟥 /backend/smart-contract/session
+```
+/session
+    session_core.bas
+    session_token.bas
+    session_state.dat
+```
+# 🟥 /backend/smart-contract/quota
+```
+/quota
+    quota_core.bas
+    quota_limit.bas
+    quota_state.dat
+```
+# 🟥 /backend/smart-contract/billing
+```
+/billing
+    billing_core.bas
+    billing_invoice.bas
+    billing_state.dat
+```
+# 🟥 /backend/smart-contract/report
+```
+/report
+    report_core.bas
+    report_generate.bas
+    report_state.dat
+```
+# 🟥 /backend/smart-contract/monitor
+```
+/monitor
+    monitor_core.bas
+    monitor_watch.bas
+    monitor_state.dat
+```
+# 🟥 /backend/smart-contract/compliance
+```
+/compliance
+    compliance_core.bas
+    compliance_rules.bas
+    compliance_state.dat
+```
+# 🟥 /backend/smart-contract/attestation
+```
+/attestation
+    attestation_core.bas
+    attestation_verify.bas
+    attestation_state.dat
+```
+# 🟥 /backend/smart-contract/multisig
+```
+/multisig
+    multisig_core.bas
+    multisig_sign.bas
+    multisig_state.dat
+```
+# 🟥 /backend/smart-contract/timelock
+```
+/timelock
+    timelock_core.bas
+    timelock_set.bas
+    timelock_state.dat
+```
+# 🟥 /backend/smart-contract/trigger
+```
+/trigger
+    trigger_core.bas
+    trigger_event.bas
+    trigger_state.dat
+```
+# 🟥 /backend/smart-contract/hook
+```
+/hook
+    hook_core.bas
+    hook_before.bas
+    hook_after.bas
+    hook_state.dat
+```
+# 🟥 /backend/smart-contract/sandbox
+```
+/sandbox
+    sandbox_core.bas
+    sandbox_exec.bas
+    sandbox_state.dat
+```
+# 🟥 /backend/smart-contract/template
+```
+/template
+    template_core.bas
+    template_new.bas
+    template_state.dat
+```
+# 🟥 /backend/smart-contract/factory2
+```
+/factory2
+    factory2_core.bas
+    factory2_build.bas
+    factory2_state.dat
+```
+# 🟥 /backend/smart-contract/indexer
+```
+/indexer
+    indexer_core.bas
+    indexer_scan.bas
+    indexer_state.dat
+```
+# 🟥 /backend/smart-contract/analytics
+```
+/analytics
+    analytics_core.bas
+    analytics_calc.bas
+    analytics_state.dat
+```
+# 🟥 /backend/smart-contract/backup
+```
+/backup
+    backup_core.bas
+    backup_create.bas
+    backup_state.dat
+```
+# 🟥 /backend/smart-contract/restore
+```
+/restore
+    restore_core.bas
+    restore_apply.bas
+    restore_state.dat
+```
+# 🟥 /backend/smart-contract/archive
+```
+/archive
+    archive_core.bas
+    archive_store.bas
+    archive_state.dat
+```
+# 🟥 /backend/smart-contract/cleanup
+```
+/cleanup
+    cleanup_core.bas
+    cleanup_run.bas
+    cleanup_state.dat
+```
