@@ -263,7 +263,161 @@ Die vollständige Geschäftslogik und Dienstleistungsebene des RFOF-Systems, imp
 *   **/schedule**: Timer-Dienste und zeitbasierte Ausführung von Aufgaben.
 *   **/nft**: Registrierung und Metadaten-Handling für Unikate.
 ---
+# 🟥 Wirtschaft & Ökonomie
 
+## /mining
+### Bedeutung: Mining‑Subsystem.  
+### Rolle: Difficulty‑Berechnung, Reward‑Verteilung, Mining‑State.
+
+## /halving
+### Bedeutung: Halbierungs‑Mechanismus.  
+### Rolle: Zeitgesteuerte Reduktion der Block‑Rewards.
+
+## /inflation
+### Bedeutung: Inflations‑Kontrolle.  
+### Rolle: Berechnung, Anpassung und Verwaltung der Geldmenge.
+
+## /treasury
+### Bedeutung: Schatzkammer.  
+### Rolle: Verwaltung von Systemmitteln, Auszahlungen, Budgetlogik.
+
+## /rewardpool
+### Bedeutung: Belohnungspool.  
+### Rolle: Sammeln, Verteilen und Reservieren von Rewards.
+
+## /burner
+### Bedeutung: Verbrennungs‑Mechanismus.  
+### Rolle: Permanente Entfernung von Assets aus dem Umlauf.
+
+---
+
+# 🟥 Identität, Alias & Kommunikation
+
+## /alias
+### Bedeutung: Alias‑Mapping.  
+### Rolle: Zuordnung alternativer Identitäts‑Bezeichner.
+
+## /session
+### Bedeutung: Sitzungs‑Tokens.  
+### Rolle: Temporäre Identitäten, Ablaufmechanismen.
+
+## /quota
+### Bedeutung: Kontingente.  
+### Rolle: Limits, Caps, Ratenbegrenzung.
+
+---
+
+# 🟥 Recht, Compliance & Nachweise
+
+## /compliance
+### Bedeutung: Regelkonformität.  
+### Rolle: Durchsetzung regulatorischer Vorgaben.
+
+## /attestation
+### Bedeutung: Nachweise.  
+### Rolle: Signierte Bestätigungen, Verifikationen.
+
+## /multisig
+### Bedeutung: Mehrfachsignaturen.  
+### Rolle: Multi‑Party‑Freigaben, Sicherheitsschicht.
+
+# /timelock
+### Bedeutung: Zeitverriegelung.  
+### Rolle: Verzögerte Ausführung, Sperrfristen.
+
+---
+
+# 🟥 Automatisierung, Trigger & Hooks
+
+## /trigger
+### Bedeutung: Ereignis‑Trigger.  
+### Rolle: Automatische Ausführung bei bestimmten Zuständen.
+
+## /hook
+### Bedeutung: Hook‑System.  
+### Rolle: Before‑/After‑Execution‑Logik.
+
+## /router
+### Bedeutung: Routing‑Schicht.  
+### Rolle: Weiterleitung von Contract‑Calls.
+
+## /sync
+### Bedeutung: Synchronisation.  
+### Rolle: Zustandsabgleich zwischen Modulen.
+
+## /epoch
+### Bedeutung: Epochen‑Verwaltung.  
+### Rolle: Zeitabschnitte, Perioden, Systemphasen.
+
+---
+
+# 🟥 Migration, Airdrops & Systempflege
+
+## /airdrop
+### Bedeutung: Verteilungsmechanismus.  
+### Rolle: Ausgabe von Assets an definierte Gruppen.
+
+## /migration
+### Bedeutung: Systemmigration.  
+### Rolle: Versionswechsel, Datenübertragungen.
+
+---
+
+# 🟥 Analyse, Indexierung & Monitoring
+
+## /indexer
+### Bedeutung: Indexierungs‑Engine.  
+### Rolle: Scannen, Sortieren, Zuordnen von On‑Chain‑Daten.
+
+## /analytics
+### Bedeutung: Analyse‑Subsystem.  
+### Rolle: Statistische Auswertungen, Kennzahlen.
+
+## /monitor
+### Bedeutung: Überwachung.  
+### Rolle: Laufzeit‑Checks, Status‑Überwachung.
+
+## /report
+### Bedeutung: Berichtswesen.  
+### Rolle: Generierung von On‑Chain‑Reports.
+
+---
+
+# 🟥 Backup, Wiederherstellung & Archivierung
+
+## /backup
+### Bedeutung: Sicherung.  
+### Rolle: Erstellung von System‑Backups.
+
+## /restore
+### Bedeutung: Wiederherstellung.  
+### Rolle: Rückspielen von Sicherungen.
+
+## /archive
+### Bedeutung: Archivierung.  
+### Rolle: Langzeit‑Speicherung historischer Daten.
+
+## /cleanup
+### Bedeutung: Bereinigung.  
+### Rolle: Entfernen veralteter oder temporärer Daten.
+
+---
+
+# 🟥 Entwicklung & Contract‑Erzeugung
+
+## /template
+### Bedeutung: Contract‑Vorlagen.  
+### Rolle: Standardisierte Grundstrukturen.
+
+## /factory2
+### Bedeutung: Erweiterte Contract‑Factory.  
+### Rolle: Automatisierte Erzeugung komplexer Vertragsstrukturen.
+
+## /sandbox
+### Bedeutung: Isolierte Ausführung.  
+### Rolle: Test‑ und Sicherheitsumgebung für Contract‑Code.
+
+---
 # 🟩 FUSIONALE GESAMTBEDUTUNG
 
 Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
