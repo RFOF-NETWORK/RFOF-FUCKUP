@@ -452,8 +452,8 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
     hash.html
     crypto.js
     crypto.html
-    guci.js
-    guci.html
+    guici.js
+    guici.html
     qnet.js
     qnet.html
     ui.js
