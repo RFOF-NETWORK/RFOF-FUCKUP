@@ -492,44 +492,7 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
 ```
 /smart-contract-complete
     /FUCKUPcontractKALKÜL
-    /blockchain
-    /coin
-    /token
-    /asset
-    /fee
-    /governance
-    /identity
-    /bridge
-    /dex
-
-    /nft
-    /domain
-    /tel
-    /fax
-    /email
-    /gmail
-
-    /wallet
-    /registry
-    /oracle
-    /escrow
-    /auction
-    /lottery
-    /subscription
-    /storage
-    /schedule
     /access
-    /license
-    /certificate
-    /profile
-    /message
-    /contract
-    /pair
-    /vault
-    /staking
-    /reward
-    /penalty
-     /access
     /airdrop
     /alias
     /analytics
@@ -537,12 +500,11 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
     /asset
     /attestation
     /auction
-
     /backup
     /billing
+    /blockchain
     /bridge
     /burner
-
     /certificate
     /cleanup
     /coin
@@ -550,52 +512,39 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
     /contract
     /dex
     /domain
-
     /email
     /epoch
     /escrow
-
-    /fax
     /factory2
+    /fax
     /fee
-
     /gmail
     /governance
     /governor
-
     /halving
     /hook
-
     /identity
     /indexer
     /inflation
-
     /license
     /lottery
-
     /message
     /migration
     /mining
     /monitor
     /multisig
-
     /nft
-
     /oracle
-
     /pair
     /penalty
     /profile
-
     /quota
-
     /registry
     /report
     /restore
     /reward
     /rewardpool
     /router
-
     /sandbox
     /schedule
     /session
@@ -603,18 +552,14 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
     /storage
     /subscription
     /sync
-
     /tel
     /template
     /timelock
     /token
     /trigger
     /treasury
-
     /vault
-
     /wallet
-
 ```
 
 ---
