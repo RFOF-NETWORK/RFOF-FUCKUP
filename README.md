@@ -619,7 +619,7 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
 
 ---
 
-## 🟥 /backend/blockchain (Inkl. PZQQET Fusion)
+## 🟥 /backend/smart-contract/blockchain (Inkl. PZQQET Fusion)
 ```
 /backend/blockchain
     chain.bas
