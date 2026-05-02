@@ -1277,11 +1277,11 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
 
 
 
-
+# 🟩 /software/frontend/
 
 
 ```
-/FRONTEND
+/frontend
 │
 ├── index.html                      (Das Apple-Style App Center / Der Desktop)
 │
