@@ -19,19 +19,19 @@
 -->
 ```
 │
-├── /HARDWARE_ORDNER             (Die physische Welt / Das Systemgehäuse)
+├── /HARDWARE             (Die physische Welt / Das Systemgehäuse)
 │   │
-│   ├── /backend                 (Die festverdrahtete Logik / Der Rechenkern)
-│   │   └── [PZqQET BASIC-Module]
 │   │
 │   └── /SOFTWARE                (Der "Ordner" in der Hardware - Die Logikschicht)
-│       └── /frontend            (Dein Apple-Style App Center)
-│           ├── /rAppCenter      (Das OS-Interface)
-│           ├── /Components      (Master-Buttons & CMDX-Logik)
-│           ├── /os-interface
-            ├── /core
-            ├── /components     (Deine geschützten Master-Files)
-            └── /smart-contract-interfaces        (Das Boot-Portal)
+│       ├── /backend                 (Die festverdrahtete Logik / Der Rechenkern)
+│       └── [PZqQET BASIC-Module]
+│           └── /frontend            (Apple-Style rApp Center bedeutet frontend selbst gilt als erstes Projekt)
+│               ├── /rAppCenter      (Das OS-Interface)
+│               ├── /Components      (Master-Buttons & CMDX-Logik)
+│               ├── /os-interface
+│               ├── /core
+│               ├── /components     (Deine geschützten Master-Files)
+│               └── /smart-contract-interfaces        (Das Boot-Portal)
 │
 └── index.html                  (Der globale Master-Loader im Root)
 ```
