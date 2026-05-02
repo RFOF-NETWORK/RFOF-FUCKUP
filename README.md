@@ -478,71 +478,15 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
 ```
 ## 🟦 /project (Frontend = Root)
 /RFOF-FUCKUP
-├──index.html   (Das Apple-Style App Center / Der Desktop)
+├── index.html   (Das Apple-Style App Center / Der Desktop)
 │
-│
-└── /frontend
-    ├── /os-interface                   (Die Seele des Interfaces)
-    │   ├── launcher.js                 (Startet die Kacheln/Apps)
-    │   ├── registry.json               (Die Liste aller installierten Projekte)
-    │   └── desktop-styles.css          (Apple-Look: Glassmorphism, Blur, San Francisco Font)
-    │
-    ├── /core                           (Die 12 Engine-Säulen - VOLLSTÄNDIG)
-    │   ├── basic.html / .js            ├── config.html / .js
-    │   ├── hash.html / .js             ├── io.html / .js
-    │   ├── crypto.html / .js           ├── state.html / .js
-    │   ├── guci.html / .js             ├── error.html / .js
-    │   ├── qnet.html / .js             ├── logs.html / .js
-    │   └── ui.html / .js               └── metrics.html / .js
-    │
-    ├── /pzqqet                         (Wissenschafts-Säulen)
-    │   ├── grammar.html / .js          ├── math.html / .js
-    │   └── geo.html / .js              └── qubit.html / .js
-    │
-    ├── /blockchain                     (Netzwerk-Säulen)
-    │   ├── chain.html / .js            ├── mempool.html / .js
-    │   └── tx.html / .js               └── wallet.html / .js
-    │
-    ├── /components                     (Die "Einmal schreiben, oft nutzen" Fabrik)
-    │   ├── /buttons                    (Master-Button für CMDX-Befehle)
-    │   ├── /inputs                     (Master-Inputs für GUICI-Daten)
-    │   ├── /modals                     (Apple-Style Pop-ups)
-    │   ├── /tiles                      (Die Kacheln für dein App Center)
-    │   ├── /logic                      (KORREKTUR: Die Brücken-Dateien)
-    │   │   ├── event-bridge.js         (Verhindert Kollisionen zwischen Modulen)
-    │   │   └── data-binder.js          (Verbindet UI mit Backend-Variablen)
-    │   └── /transport
-    │       └── backend-request.js      (Der universelle CMDX-Postbote zum Hardware-Ordner)
-    │
-    └── /smart-contract-interfaces      (DIE 68 MODULE - KEINES FEHLT)
-        ├── access.html / .js       ├── airdrop.html / .js      ├── alias.html / .js
-        ├── analytics.html / .js    ├── archive.html / .js      ├── asset.html / .js
-        ├── attestation.html / .js  ├── auction.html / .js      ├── backup.html / .js
-        ├── billing.html / .js      ├── bridge.html / .js       ├── burner.html / .js
-        ├── certificate.html / .js  ├── cleanup.html / .js      ├── coin.html / .js
-        ├── compliance.html / .js   ├── contract.html / .js     ├── dex.html / .js
-        ├── domain.html / .js       ├── email.html / .js        ├── epoch.html / .js
-        ├── escrow.html / .js       ├── factory2.html / .js     ├── fax.html / .js
-        ├── fee.html / .js          ├── gmail.html / .js        ├── governance.html / .js
-        ├── governor.html / .js     ├── halving.html / .js      ├── hook.html / .js
-        ├── identity.html / .js     ├── indexer.html / .js      ├── inflation.html / .js
-        ├── license.html / .js      ├── lottery.html / .js      ├── message.html / .js
-        ├── migration.html / .js    ├── mining.html / .js       ├── monitor.html / .js
-        ├── multisig.html / .js     ├── nft.html / .js          ├── oracle.html / .js
-        ├── pair.html / .js         ├── penalty.html / .js      ├── profile.html / .js
-        ├── quota.html / .js        ├── registry.html / .js     ├── report.html / .js
-        ├── restore.html / .js      ├── reward.html / .js       ├── rewardpool.html / .js
-        ├── router.html / .js       ├── sandbox.html / .js      ├── schedule.html / .js
-        ├── session.html / .js      ├── staking.html / .js      ├── storage.html / .js
-        ├── subscription.html / .js ├── sync.html / .js         ├── tel.html / .js
-        ├── template.html / .js     ├── timelock.html / .js     ├── token.html / .js
-        ├── trigger.html / .js      ├── treasury.html / .js     ├── vault.html / .js
-        └── wallet_main.html / .js  (Die Hauptansicht deiner Wallet)
+├── LICENSE.md
+└── README.md
 ```
 
 ---
 
-## 🟥 /backend (BASIC-Backend & Core)
+## 🟥 HARDWARE/SOFTWARE/backend (BASIC-Backend & Core)
 ```
 /backend
     system.bas
@@ -569,7 +513,7 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
 ```
 ---
 
-## 🟧 /backend/smart-contract
+## 🟧 HARDWARE/SOFTWARE/backend/smart-contract
 ```
 /smart-contract-complete
     /FUCKUPcontractKALKÜL
@@ -645,7 +589,7 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
 
 ---
 
-## 🟥 /backend/smart-contract/blockchain (Inkl. PZQQET Fusion)
+## 🟥 HARDWARE/SOFTWARE/backend/smart-contract/blockchain (Inkl. PZQQET Fusion)
 ```
 /backend/blockchain
     chain.bas
@@ -1328,7 +1272,7 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
     archive_store.bas
     archive_state.dat
 ```
-# 🟥 /backend/smart-contract/cleanup
+# 🟥 backend/smart-contract/cleanup
 ```
 /cleanup
     cleanup_core.bas
@@ -1344,6 +1288,63 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
 
 
 
-# 🟩 /software/frontend/
-
-
+# 🟩 HARDWARE/SOFTWARE/frontend/
+```
+└── /frontend
+    ├── /os-interface                   (Die Seele des Interfaces)
+    │   ├── launcher.js                 (Startet die Kacheln/Apps)
+    │   ├── registry.json               (Die Liste aller installierten Projekte)
+    │   └── desktop-styles.css          (Apple-Look: Glassmorphism, Blur, San Francisco Font)
+    │
+    ├── /core                           (Die 12 Engine-Säulen - VOLLSTÄNDIG)
+    │   ├── basic.html / .js            ├── config.html / .js
+    │   ├── hash.html / .js             ├── io.html / .js
+    │   ├── crypto.html / .js           ├── state.html / .js
+    │   ├── guci.html / .js             ├── error.html / .js
+    │   ├── qnet.html / .js             ├── logs.html / .js
+    │   └── ui.html / .js               └── metrics.html / .js
+    │
+    ├── /pzqqet                         (Wissenschafts-Säulen)
+    │   ├── grammar.html / .js          ├── math.html / .js
+    │   └── geo.html / .js              └── qubit.html / .js
+    │
+    ├── /blockchain                     (Netzwerk-Säulen)
+    │   ├── chain.html / .js            ├── mempool.html / .js
+    │   └── tx.html / .js               └── wallet.html / .js
+    │
+    ├── /components                     (Die "Einmal schreiben, oft nutzen" Fabrik)
+    │   ├── /buttons                    (Master-Button für CMDX-Befehle)
+    │   ├── /inputs                     (Master-Inputs für GUICI-Daten)
+    │   ├── /modals                     (Apple-Style Pop-ups)
+    │   ├── /tiles                      (Die Kacheln für dein App Center)
+    │   ├── /logic                      (KORREKTUR: Die Brücken-Dateien)
+    │   │   ├── event-bridge.js         (Verhindert Kollisionen zwischen Modulen)
+    │   │   └── data-binder.js          (Verbindet UI mit Backend-Variablen)
+    │   └── /transport
+    │       └── backend-request.js      (Der universelle CMDX-Postbote zum Hardware-Ordner)
+    │
+    └── /smart-contract-interfaces      (DIE 68 MODULE - KEINES FEHLT)
+        ├── access.html / .js       ├── airdrop.html / .js      ├── alias.html / .js
+        ├── analytics.html / .js    ├── archive.html / .js      ├── asset.html / .js
+        ├── attestation.html / .js  ├── auction.html / .js      ├── backup.html / .js
+        ├── billing.html / .js      ├── bridge.html / .js       ├── burner.html / .js
+        ├── certificate.html / .js  ├── cleanup.html / .js      ├── coin.html / .js
+        ├── compliance.html / .js   ├── contract.html / .js     ├── dex.html / .js
+        ├── domain.html / .js       ├── email.html / .js        ├── epoch.html / .js
+        ├── escrow.html / .js       ├── factory2.html / .js     ├── fax.html / .js
+        ├── fee.html / .js          ├── gmail.html / .js        ├── governance.html / .js
+        ├── governor.html / .js     ├── halving.html / .js      ├── hook.html / .js
+        ├── identity.html / .js     ├── indexer.html / .js      ├── inflation.html / .js
+        ├── license.html / .js      ├── lottery.html / .js      ├── message.html / .js
+        ├── migration.html / .js    ├── mining.html / .js       ├── monitor.html / .js
+        ├── multisig.html / .js     ├── nft.html / .js          ├── oracle.html / .js
+        ├── pair.html / .js         ├── penalty.html / .js      ├── profile.html / .js
+        ├── quota.html / .js        ├── registry.html / .js     ├── report.html / .js
+        ├── restore.html / .js      ├── reward.html / .js       ├── rewardpool.html / .js
+        ├── router.html / .js       ├── sandbox.html / .js      ├── schedule.html / .js
+        ├── session.html / .js      ├── staking.html / .js      ├── storage.html / .js
+        ├── subscription.html / .js ├── sync.html / .js         ├── tel.html / .js
+        ├── template.html / .js     ├── timelock.html / .js     ├── token.html / .js
+        ├── trigger.html / .js      ├── treasury.html / .js     ├── vault.html / .js
+        └── wallet_main.html / .js  (Die Hauptansicht deiner Wallet)
+```
