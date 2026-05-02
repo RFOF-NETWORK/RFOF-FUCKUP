@@ -441,8 +441,8 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
 
 # RFOF-FUCKUP | FINALE GESAMTSTRUKTUR
 ```
-## 🟦 /project (Frontend)
-/project
+## 🟦 /project (Frontend = Root)
+/RFOF-FUCKUP
     index.html
     style.css
     logo.png
