@@ -39,7 +39,7 @@
 
 # RFOF-FUCKUP | FUNKTIONALE GESAMTSTRUKTUR (FINAL FUSION)
 
-## 🟦 FRONTEND (/project)  
+## 🟦 FRONTEND (/project 1 nur index.html ist im root)  
 Das Frontend dient als minimalistisches Loader‑System.  
 Jede HTML‑Datei aktiviert genau ein JS‑Modul.  
 Keine Logik im HTML, keine Zustände, keine Berechnungen — nur Laden, Anzeigen, Weiterreichen.
@@ -1288,7 +1288,7 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
 
 
 
-# 🟩 HARDWARE/SOFTWARE/frontend/
+# 🟩 HARDWARE/SOFTWARE/backend/frontend/
 ```
 └── /frontend
     ├── /os-interface                   (Die Seele des Interfaces)
