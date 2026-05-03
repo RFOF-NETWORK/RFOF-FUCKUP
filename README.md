@@ -95,7 +95,7 @@ REM ============================================================================
 *   **Syntax-Check:** In BASIC wurde jede Zeile mit `REM` geschützt, in HTML alles innerhalb der `<!-- -->` Tags und in CSS mit dem `/* */` Block.
 *   **Rechtssicherheit:** Egal welche Datei jemand öffnet, der erste Blick fällt sofort auf die Urheberrechte und die Warnung vor unbefugter Extraktion.
 
-Damit ist der mechanismus des gesamten Archives – von der Hardware-Ebene bis zum Design-Pixel – einheitlich unter dem **RFOF-FUCKUP-Schutz** versiegelt. #RFFUCKUPOF ( = Radius/Radio-/Ready Frequency-/First Universal Cybernetic-Kinetic Ultra-Micro Programmer Optically Futuristics-physics)!
+Damit ist der mechanismus des gesamten Archives – von der Hardware-Ebene bis zum Design-Pixel – einheitlich unter dem **RFOF-FUCKUP-Schutz** versiegelt . #RFFUCKUPOF ( = Radius/Radio-/Ready Frequency-/First Universal Cybernetic-Kinetic Ultra-Micro Programmer Optically Futuristics-physics) = the first 0ms real Raytracing OS / @PRAIAI!
 ```
 │
 ├── /HARDWARE             (Die physische Welt / Das Systemgehäuse)
