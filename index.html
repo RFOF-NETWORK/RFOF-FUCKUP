@@ -1,0 +1,39 @@
+<!--
+  @license RFOF-FUCKUP PRIVATE LICENSE
+  @copyright 2026 @RFOF-NETWORK & @Satoramy
+  @warning PRIVATE PROPERTY: Unauthorized copying or commercial 
+  extraction of this structure is strictly prohibited.
+  Only for use within the RFOF-Ecosystem.
+
+ =============================================================================
+ |      PROPERTY OF @RFOF-NETWORK & @Satoramy - ALL RIGHTS RESERVED           |
+ |-----------------------------------------------------------------------------|
+ | LICENSE: RFOF-FUCKUP PRIVATE & ECO-LICENSE (V 1.0)                          |
+ | PROJECT: RFOF-OS (PZQQET / GUICI-Core Architecture)                         |
+ |                                                                             |
+ | WARNING: UNAUTHORIZED COMMERCIAL EXTRACTION, COPYING, OR DISTRIBUTION       |
+ | OUTSIDE THE RFOF-ECOSYSTEM IS STRICTLY PROHIBITED. THIS CODE IS PART OF     |
+ | A PROTECTED HARDWARE-SOFTWARE-SYNERGY (EST. 1940/2026).                      |
+ =============================================================================
+-->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RFOF OS - Global Master Loader</title>
+    <!-- Wir greifen direkt in das Gehäuse -->
+    <link rel="stylesheet" href="HARDWARE/SOFTWARE/frontend/rAppCenter/styles/main.css">
+</head>
+<body>
+    <div id="os-root">
+        <!-- Hier wird das rAppCenter per JavaScript injiziert -->
+    </div>
+
+    <!-- Boot-Loader Logik -->
+    <script type="module">
+        import { bootOS } from './HARDWARE/SOFTWARE/frontend/rAppCenter/launcher.js';
+        window.addEventListener('DOMContentLoaded', () => bootOS('#os-root'));
+    </script>
+</body>
+</html>
