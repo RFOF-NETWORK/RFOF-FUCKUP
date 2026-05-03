@@ -1371,8 +1371,9 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
 ```
 └── /frontend
     ├── /os-interface                   (Die Seele des Interfaces)
-    │   ├── launcher.js                 (Startet die Kacheln/Apps)
     │   ├── registry.json               (Die Liste aller installierten Projekte)
+    │   ├── style.css           
+    │   └── logo.png           
     │   └── desktop-styles.css          (Apple-Look: Glassmorphism, Blur, San Francisco Font)
     │
     ├── /core                           (Die 12 Engine-Säulen - VOLLSTÄNDIG)
