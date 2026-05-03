@@ -1,4 +1,6 @@
 # /RFOF-FUCKUP
+## 0. Markdown-Dateien (`.md`)
+```
 <!--
   @license RFOF-FUCKUP PRIVATE LICENSE
   @copyright 2026 @RFOF-NETWORK & @Satoramy
@@ -17,6 +19,83 @@
  | A PROTECTED HARDWARE-SOFTWARE-SYNERGY (EST. 1940/2026).                      |
  =============================================================================
 -->
+```
+### 1. Für HTML-Dateien (`.html`)
+```html
+<!--
+  @license RFOF-FUCKUP PRIVATE LICENSE
+  @copyright 2026 @RFOF-NETWORK & @Satoramy
+  @warning PRIVATE PROPERTY: Unauthorized copying or commercial 
+  extraction of this structure is strictly prohibited.
+  Only for use within the RFOF-Ecosystem.
+
+ =============================================================================
+ |      PROPERTY OF @RFOF-NETWORK & @Satoramy - ALL RIGHTS RESERVED           |
+ |-----------------------------------------------------------------------------|
+ | LICENSE: RFOF-FUCKUP PRIVATE & ECO-LICENSE (V 1.0)                          |
+ | PROJECT: RFOF-OS (PZQQET / GUICI-Core Architecture)                         |
+ |                                                                             |
+ | WARNING: UNAUTHORIZED COMMERCIAL EXTRACTION, COPYING, OR DISTRIBUTION       |
+ | OUTSIDE THE RFOF-ECOSYSTEM IS STRICTLY PROHIBITED. THIS CODE IS PART OF     |
+ | A PROTECTED HARDWARE-SOFTWARE-SYNERGY (EST. 1940/2026).                      |
+ =============================================================================
+-->
+```
+
+---
+
+### 2. Für CSS-Dateien (`.css`)
+```css
+/*
+ * @license RFOF-FUCKUP PRIVATE LICENSE
+ * @copyright 2026 @RFOF-NETWORK & @Satoramy
+ * @warning PRIVATE PROPERTY: Unauthorized copying or commercial 
+ * extraction of this structure is strictly prohibited.
+ * Only for use within the RFOF-Ecosystem.
+ *
+ =============================================================================
+ |      PROPERTY OF @RFOF-NETWORK & @Satoramy - ALL RIGHTS RESERVED           |
+ |-----------------------------------------------------------------------------|
+ | LICENSE: RFOF-FUCKUP PRIVATE & ECO-LICENSE (V 1.0)                          |
+ | PROJECT: RFOF-OS (PZQQET / GUICI-Core Architecture)                         |
+ |                                                                             |
+ | WARNING: UNAUTHORIZED COMMERCIAL EXTRACTION, COPYING, OR DISTRIBUTION       |
+ | OUTSIDE THE RFOF-ECOSYSTEM IS STRICTLY PROHIBITED. THIS CODE IS PART OF     |
+ | A PROTECTED HARDWARE-SOFTWARE-SYNERGY (EST. 1940/2026).                      |
+ =============================================================================
+*/
+```
+
+---
+
+### 3. Für BASIC-Dateien (`.bas` / `.txt`)
+```basic
+REM @license RFOF-FUCKUP PRIVATE LICENSE
+REM @copyright 2026 @RFOF-NETWORK & @Satoramy
+REM @warning PRIVATE PROPERTY: Unauthorized copying or commercial 
+REM extraction of this structure is strictly prohibited.
+REM Only for use within the RFOF-Ecosystem.
+REM
+REM =============================================================================
+REM |      PROPERTY OF @RFOF-NETWORK & @Satoramy - ALL RIGHTS RESERVED           |
+REM |-----------------------------------------------------------------------------|
+REM | LICENSE: RFOF-FUCKUP PRIVATE & ECO-LICENSE (V 1.0)                          |
+REM | PROJECT: RFOF-OS (PZQQET / GUICI-Core Architecture)                         |
+REM |                                                                             |
+REM | WARNING: UNAUTHORIZED COMMERCIAL EXTRACTION, COPYING, OR DISTRIBUTION       |
+REM | OUTSIDE THE RFOF-ECOSYSTEM IS STRICTLY PROHIBITED. THIS CODE IS PART OF     |
+REM | A PROTECTED HARDWARE-SOFTWARE-SYNERGY (EST. 1940/2026).                      |
+REM =============================================================================
+```
+
+---
+
+### ⚡ Was sich geändert hat:
+*   **Volle Symmetrie:** Jetzt haben alle Dateitypen den textuellen `@license`-Teil **und** den visuellen Kasten.
+*   **Syntax-Check:** In BASIC wurde jede Zeile mit `REM` geschützt, in HTML alles innerhalb der `<!-- -->` Tags und in CSS mit dem `/* */` Block.
+*   **Rechtssicherheit:** Egal welche Datei jemand öffnet, der erste Blick fällt sofort auf die Urheberrechte und die Warnung vor unbefugter Extraktion.
+
+Damit ist dein gesamtes Archiv – von der Hardware-Ebene bis zum Design-Pixel – einheitlich unter dem **RFOF-FUCKUP-Schutz** versiegelt. Viel Erfolg beim Einpflegen!
 ```
 │
 ├── /HARDWARE             (Die physische Welt / Das Systemgehäuse)
