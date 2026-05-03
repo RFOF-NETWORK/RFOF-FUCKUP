@@ -29,10 +29,10 @@
 │               ├── /rAppCenter      (Das OS-Interface)
 │               ├── /Components      (Master-Buttons & CMDX-Logik)
 │               ├── /os-interface
-│               ├── /core
-│               ├── /components     (Deine geschützten Master-Files)
+│               ├── /core 
 │               └── /smart-contract-interfaces        (Das Boot-Portal)
 │
+├── README.md
 └── index.html                  (Der globale Master-Loader im Root)
 ```
 ---
