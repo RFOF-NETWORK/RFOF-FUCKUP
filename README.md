@@ -1380,7 +1380,7 @@ Die final fusionierte Struktur bildet ein dreistufiges Gesamtsystem:
     │   ├── basic.html / .js            ├── config.html / .js
     │   ├── hash.html / .js             ├── io.html / .js
     │   ├── crypto.html / .js           ├── state.html / .js
-    │   ├── guci.html / .js             ├── error.html / .js
+    │   ├── guici.html / .js             ├── error.html / .js
     │   ├── qnet.html / .js             ├── logs.html / .js
     │   └── ui.html / .js               └── metrics.html / .js
     │
