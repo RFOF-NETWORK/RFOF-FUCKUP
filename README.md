@@ -73,7 +73,7 @@
 | /components                | Fabrik: /buttons, /inputs, /modals, /tiles.                                      |
 | /logic                     | Brücken: event-bridge.js, data-binder.js (Verhindert Kollisionen).               |
 | /transport                 | Postbote: backend-request.js (Universelle CMDX-Hardware-Anbindung).              |
-| /smart-contract-interfaces | 68 Organe: Vollständige Modul-Liste (access bis wallet_main).                    |
+| /smart-contract-interfaces | 68 Organe: Vollständige Modul-Liste (access, blockchain bis wallet).                    |
 
 ## 0. Markdown-Dateien (`.md`)
 ```
