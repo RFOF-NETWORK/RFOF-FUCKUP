@@ -1,4 +1,80 @@
 # /RFOF-FUCKUP
+
+# 🏗️ RF BLUEPRINT (QNET REGEL 1)
+
+```
+## 📂 1. SYSTEM-VERZEICHNIS (PHYSISCH)
+
+/RFOF-FUCKUP (Root = PRAI)
+│
+├── index.html                   <-- HOME (Mantel, Sektoren 1-8, Master-Renderer)
+├── README.md                    <-- System-Dokumentation (Master-Index 00)
+│
+├── /rAppCenter                  <-- SEKTOR 9 (App Browser / Stratosphäre)
+│   ├── index.html               (Projektor für alle HauptrApps)
+│   │
+│   ├── /PRAI                    (HauptrApp 1: PRAI rApp Home Logik & Selbstverwaltung)
+│   │   └── /docs                (MD-Quelle für Master-Index 01)
+│   │
+│   ├── /X-Hub                   (HauptrApp 2: IDE & Admin-Werkstatt)
+│   │   ├── index.html           (Interface für CMDX & GUICI)
+│   │   ├── /docs                (MD-Quelle für Master-Index 02)
+│   │   └── /rAppStore           <-- SEKTOR 10 (User-Ebene / Sandbox)
+│   │
+│   └── /[Dynamisch]             (HauptrApp n+1: Aufgestiegene Projekte)
+│       └── /docs                (MD-Quelle für Master-Index n+1)
+│
+└── /HARDWARE                    <-- DIE QUELLE (UNANTASTBAR)
+    └── /SOFTWARE
+        ├── /backend             (Axiome & YUCA-Logik)
+        └── /frontend            (DER KERN: 68 Organe & 12 Säulen)
+            ├── /os-interface    (registry.json, styles, apple-ux-zwang)
+            ├── /core            (12 Engine-Säulen inkl. GUICI & QNET)
+            ├── /pzqqet          (Wissenschafts-Säulen)
+            ├── /blockchain      (Netzwerk-Säulen)
+            ├── /components      (Fabrik: Buttons, Inputs, Modals, Tiles)
+            ├── /logic           (Brücken: event-bridge.js, data-binder.js)
+            ├── /transport       (Postbote: backend-request.js)
+            └── /smart-contract-interfaces (Die 68 Organe / Module)
+```
+
+## 🗺️ 2. DYNAMISCHE NAVIGATION (DROPDOWN-MATRIX)
+
+| Pos. | Ziel             | Funktion                                                  |
+| :--- | :---             | :---                                                      |
+| 01   | Home (RFOF-FUCKUP=PRAI rApp Home)      | Master-Mantel (RFOF-FUCKUP). Zurück zu den 8 Sektoren.    |
+| 02   | rApp Center      | Sektor 9: Der App-Browser der Elite-Projekte.             |
+| 03   | X-Hub            | Werkstatt: IDE, CMDX, GUICI & rApp Store (Sektor 10).     |
+| 04   | PRAI rApp         | Operative rApp-Version der Home-Logik.                    |
+| 05+  | [Neues Projekt]  | Dynamischer Einschub für jedes im Center gelistete Projekt.|
+| LAST | Documentation    | Endloses MD-Register. Aggregiert alle dezentralen Docs.   |
+
+
+## 📖 3. DETERMINISTISCHE DOCS-KOPPELUNG (MASTER-INDEX)
+
+| Index | Quelle (Pfad)                  | Anzeige im Baum (Deterministisch) |
+| :---  | :---                           | :---                              |
+| 00    | /Root/README.md                | `00 RFOF-FUCKUP`                  |
+| 01    | /rAppCenter/PRAI/docs/         | `01 PRAI | Vision & Core, erster rApp`         |
+| 02    | /rAppCenter/X-Hub/docs/        | `02 X-HUB | Admin & IDE(rApp Store CMDX), zweiter rApp`          |
+| 03    | /rAppCenter/[Projekt-n]/docs/  | `03 rApp Center | Dritter rApp`      |
+| 04    | /rAppCenter/[Projekt-n]/docs/  | `04 PROJEKT-N | System-Logik vierter rApp usw`      |
+| ...   | [Dynamischer Zuwachs]          | Unendliche Fortführung (n+1)      |
+
+
+## 🛠️ 4. FRONTEND-KERN DEEP-DIVE (HARDWARE-QUELLE)
+
+| Sektor                     | Inhalt & Aufgabe                                                                 |
+| :---                       | :---                                                                             |
+| /os-interface              | Seele: registry.json, style.css, logo.png, desktop-styles.css (Apple-UX).        |
+| /core                      | 12 Säulen: basic, hash, crypto, guici, qnet, ui, config, io, state, error, logs, metrics. |
+| /pzqqet                    | Wissenschaft: grammar, math, geo, qubit.                                         |
+| /blockchain                | Netzwerk: chain, mempool, tx, wallet.                                            |
+| /components                | Fabrik: /buttons, /inputs, /modals, /tiles.                                      |
+| /logic                     | Brücken: event-bridge.js, data-binder.js (Verhindert Kollisionen).               |
+| /transport                 | Postbote: backend-request.js (Universelle CMDX-Hardware-Anbindung).              |
+| /smart-contract-interfaces | 68 Organe: Vollständige Modul-Liste (access bis wallet_main).                    |
+
 ## 0. Markdown-Dateien (`.md`)
 ```
 <!--
