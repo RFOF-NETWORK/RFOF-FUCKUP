@@ -79,6 +79,21 @@
 
 ---
 
+### 🗺️ Tabelle 1: Die Master-Navigation & Docs-Koppelung (Das Öko-System)
+Diese Tabelle fusioniert das **Dropdown-Menü** mit der **deterministischen Dokumentations-Hierarchie**. Sie zeigt genau, welcher Navigationspunkt welches Ziel hat und wo die dazugehörigen Docs im Master-Index verankert sind.
+
+| Pos. | Ziel (Dropdown-Menü) | Funktion & Inhalt | Master-Index (Docs) | Physischer Pfad der Dokumentation |
+| :--- | :--- | :--- | :--- | :--- |
+| **01** | **Home (RFOF-FUCKUP)** | Master-Mantel & Sektoren 1-8. | **00** | `/README.md` (Root) |
+| **02** | **rApp Center** | Sektor 9: Der App-Browser. | **03** | `/rAppCenter/[Projekt-n]/docs/` |
+| **03** | **X-Hub** | IDE, Admin-Werkstatt & Sektor 10. | **02** | `/rAppCenter/X-Hub/docs/` |
+| **04** | **PRAI rApp** | Operative Selbstverwaltung. | **01** | `/rAppCenter/PRAI/docs/` |
+| **05** | **[Neues Projekt 1]** | Dynamischer Einschub (HauptrApp n). | **04** | `/rAppCenter/[Projekt-n]/docs/` |
+| **06** | **[Neues Projekt 2]** | Dynamischer Einschub (HauptrApp n+1). | **05** | `/rAppCenter/[Projekt-n+1]/docs/` |
+| **07** | **Documentation** | Das endlose MD-Register (Aggregator). | **LAST** | *Summe aller obigen Pfade* |
+
+---
+
 ### 🖼️ Tabelle 2: rApp Center Rendering (Die Projektion)
 Hier wird unterschieden: Der **Master-Renderer** ist die ausführende Datei, während die **HauptrApps** (inkl. 0) die Ziele sind.
 
