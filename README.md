@@ -14,14 +14,16 @@
 │   ├── index.html               (Projektor für alle HauptrApps)
 │   │
 │   ├── /PRAI                    (HauptrApp 1: PRAI rApp Home Logik & Selbstverwaltung)
+│   │   ├── index.html
 │   │   └── /docs                (MD-Quelle für Master-Index 01)
 │   │
 │   ├── /X-Hub                   (HauptrApp 2: IDE & Admin-Werkstatt)
 │   │   ├── index.html           (Interface für CMDX & GUICI)
 │   │   ├── /docs                (MD-Quelle für Master-Index 02)
 │   │   └── /rAppStore           <-- SEKTOR 10 (User-Ebene / Sandbox)
+│   │                   
 │   │
-│   └── /[Dynamisch]             (HauptrApp n+1: Aufgestiegene Projekte)
+│   └── /Documentation[Dynamisch]             (HauptrApp n+1: Aufgestiegene Projekte)
 │       └── /docs                (MD-Quelle für Master-Index n+1)
 │
 └── /HARDWARE                    <-- DIE QUELLE (UNANTASTBAR)
