@@ -77,6 +77,23 @@
 | /transport                 | Postbote: backend-request.js (Universelle CMDX-Hardware-Anbindung).              |
 | /smart-contract-interfaces | 68 Organe: Vollständige Modul-Liste (access, blockchain bis wallet).                    |
 
+---
+
+### 🖼️ Tabelle 2: rApp Center Rendering (Die Projektion)
+Hier wird unterschieden: Der **Master-Renderer** ist die ausführende Datei, während die **HauptrApps** (inkl. 0) die Ziele sind.
+
+| Element | Quelle (Pfad) | Rendering-Status | Aufgabe |
+| :--- | :--- | :--- | :--- |
+| **Master-Renderer** | `/rAppCenter/index.html` | **AKTIV (Projektor)** | Erzeugt das grafische Raster (Grid) für alle aktiven rApps. |
+| **HauptrApp 0** | `/rAppCenter/index.html` | **IN DER RAPP** | Das Center stellt sich selbst als nutzbares Modul im Grid dar. |
+| **HauptrApp 1** | `/rAppCenter/PRAI/` | **GERENDERT** | Projiziert die PRAI-Oberfläche in das Grid-Fenster. |
+| **HauptrApp 2** | `/rAppCenter/X-Hub/` | **GERENDERT** | Projiziert die IDE-Oberfläche in das Grid-Fenster. |
+| **Extension-Slot** | `/rAppCenter/X-Hub/rAppStore/` | **IN DER RAPP (X-Hub)** | Sektor 10 wird innerhalb der X-Hub rApp verwaltet. |
+| **Dynamik-Slot** | `/rAppCenter/[Projekt-n]/` | **GERENDERT** | Projiziert neue Projekte nach Ranking-Aufstieg. |
+| **Global-Style** | `/HARDWARE/.../os-interface/` | **QUELLE** | Liefert den Apple-UX-Look für alle Render-Vorgänge. |
+
+---
+
 ## 0. Markdown-Dateien (`.md`)
 ```
 <!--
