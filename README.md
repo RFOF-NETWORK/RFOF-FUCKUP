@@ -26,16 +26,16 @@
 │
 └── /HARDWARE                    <-- DIE QUELLE (UNANTASTBAR)
     └── /SOFTWARE
-        ├── /backend             (Axiome & YUCA-Logik)
-        └── /frontend            (DER KERN: 68 Organe & 12 Säulen)
-            ├── /os-interface    (registry.json, styles, apple-ux-zwang)
-            ├── /core            (12 Engine-Säulen inkl. GUICI & QNET)
-            ├── /pzqqet          (Wissenschafts-Säulen)
-            ├── /blockchain      (Netzwerk-Säulen)
-            ├── /components      (Fabrik: Buttons, Inputs, Modals, Tiles)
-            ├── /logic           (Brücken: event-bridge.js, data-binder.js)
-            ├── /transport       (Postbote: backend-request.js)
-            └── /smart-contract-interfaces (Die 68 Organe / Module)
+        └── /backend             (Axiome & YUCA-Logik)
+            └── /frontend            (DER KERN: 68 Organe & 12 Säulen)
+                ├── /os-interface    (registry.json, styles, apple-ux-zwang)
+                ├── /core            (12 Engine-Säulen inkl. GUICI & QNET)
+                ├── /pzqqet          (Wissenschafts-Säulen)
+                ├── /blockchain      (Netzwerk-Säulen)
+                ├── /components      (Fabrik: Buttons, Inputs, Modals, Tiles)
+                ├── /logic           (Brücken: event-bridge.js, data-binder.js)
+                ├── /transport       (Postbote: backend-request.js)
+                └── /smart-contract-interfaces (Die 68 Organe / Module)
 ```
 
 ## 🗺️ 2. DYNAMISCHE NAVIGATION (DROPDOWN-MATRIX)
