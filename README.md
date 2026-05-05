@@ -7,7 +7,7 @@
 
 /RFOF-FUCKUP (Root = PRAI)
 │
-├── index.html                   <-- HOME (Mantel, Sektoren 1-8, Master-Renderer)
+├── index.html                   <-- RFOF FUCKUP HOME (Mantel, Sektoren 1-8, Master-Renderer)
 ├── README.md                    <-- System-Dokumentation (Master-Index 00)
 │
 ├── /rAppCenter                  <-- SEKTOR 9 (App Browser / Stratosphäre)
